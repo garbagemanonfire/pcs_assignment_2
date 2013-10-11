@@ -6,29 +6,27 @@ myOutput = "";
 
 for (var i = myString.length-1; i >= 0; i--) {
   if ((myString[i] === 'a')||(myString[i] === 'A')){
-  	myString[i] = ""
+    myString[i] = ""
   }
   else if ((myString[i] === 'e')||(myString[i] === 'E')) {
-  	myString[i] = ""
+    myString[i] = ""
   }
    else if ((myString[i] === 'i')||(myString[i] === 'I')){
-  	myString[i] = ""
+    myString[i] = ""
   }
    else if ((myString[i] === 'o')||(myString[i] === 'O')){
-  	myString[i] = ""
+    myString[i] = ""
   }
   else if ((myString[i] === 'u')||(myString[i] === 'U')) {
-  	myString[i] = ""
+    myString[i] = ""
   }
   else { 
-  	console.log(myString[i])
-  	myOutput = myOutput + myString[i]
-	}
+    console.log(myString[i])
+    myOutput += myString[i]
+  }
 }
 
 console.log(myOutput)
-
-
 
 // w switch
 // for (var i = myString.length-1; i >= 0; i --) {
