@@ -1,10 +1,10 @@
-var myString 
-var myOutput
+var myString; 
+var myOutput;
 
 myString = 'HEllAouiOIT';
-myOutput = ""
+myOutput = "";
 
-for (var i = myString.length-1; i >= 0; i --) {
+for (var i = myString.length-1; i >= 0; i--) {
   if ((myString[i] === 'a')||(myString[i] === 'A')){
   	myString[i] = ""
   }
